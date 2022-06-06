@@ -1,0 +1,17 @@
+Algumas dicas valiosas para não esquecer ao usar o Git:
+
+Comandos básicos:
+
+-git init //inicialiaza repositorio
+-git remote add <link> // aponta para um repositório no GitHub
+-git config --global user.name / user.email // para modificar nome e email
+-git add <* ou arquivo específico> e git commit -m "<mensagem>"
+-git branch/ git checkout
+-git pull //para puxar atualizações
+-git push <servidor remoto> <branch local> // para mandar atualizações
+
+Dicas:
+-Criar branches toda vez que for começar alguma mudança usando o comando git branch <nome da branch> e git checkout <nome da branch> ou apenas usando git checkout -b <nome da branch>
+
+-Sempre que trocar de branches utilizar do git commit para salvar qualquer alteração da branch atual
+
